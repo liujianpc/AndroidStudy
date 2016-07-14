@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.example.acitivitylifecycletest;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.util.Log;
+
+/**
+ * @author FBJH73
+ *
+ */
+public class BaseActivity extends Activity {
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		Log.d("BaseActivity", getClass().getSimpleName());
+	}
+}

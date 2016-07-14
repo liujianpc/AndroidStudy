@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;TestUI/src/com.example.testui&apos;&#x0D;&#x0A;- Original project: &apos;AcitivityLifeCycleTest&apos;&#x0D;&#x0A;- Destination element: &apos;TestUI/src/com.example.testui&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.example.acitivitylifecycletest.BaseActivity.java&#x0D;&#x0A;     com.example.acitivitylifecycletest.ActivityCollector.java" description="Copy compilation units" destination="=TestUI/src&lt;com.example.testui" element1="/src&lt;com.example.acitivitylifecycletest{BaseActivity.java" element2="/src&lt;com.example.acitivitylifecycletest{ActivityCollector.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1468219012273" units="2" version="1.0"/>
+</session>

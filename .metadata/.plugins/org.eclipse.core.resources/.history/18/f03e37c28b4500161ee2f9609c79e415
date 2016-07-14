@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.liujian.testbutton;
+
+import android.app.Activity;
+
+/**
+ * @author fbjh73
+ *
+ */
+public class TestButtonActivity extends Activity {
+
+}

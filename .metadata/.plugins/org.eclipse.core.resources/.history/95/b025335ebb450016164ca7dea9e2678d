@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.example.testoptionmenue;
+
+import android.app.Activity;
+
+/**
+ * @author fbjh73
+ *
+ */
+public class SecondActivity extends Activity {
+
+}

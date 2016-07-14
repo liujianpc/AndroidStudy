@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.example.acitivitylifecycletest;
+
+import android.app.Activity;
+
+/**
+ * @author FBJH73
+ *
+ */
+public class BaseActivity extends Activity {
+
+}
