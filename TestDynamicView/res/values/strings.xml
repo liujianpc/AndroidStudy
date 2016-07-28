@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestDynamicView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="colorArray">
+        <item>#abcdff</item>
+        <item>#dddddd</item>
+        <item>#cccccc</item>
+        <item>#bbbbbb</item>
+        <item>#aaaaaa</item>
+        <item>#999999</item>
+        <item>#888888</item>
+        <item>#777777</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,27 @@
+package com.example.listviewtest;
+
+import android.R.integer;
+
+public class Family {
+	private String name;
+	private int imageId;
+	
+	public Family(String name, int imageId) {
+		this.name = name;
+		imageId = imageId;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getImageId() {
+		return ImageId;
+	}
+	public void setImageId(int imageId) {
+		ImageId = imageId;
+	}
+	
+	
+}

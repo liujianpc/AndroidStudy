@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.listviewtest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WolfActivity"
+            android:label="@string/title_activity_wolf"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="com.example.listviewtest.WOLF" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DeerActivity"
+            android:label="@string/title_activity_deer"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="com.example.listviewtest.DEER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DragonActivity"
+            android:label="@string/title_activity_dragon"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="com.example.listviewtest.DRAGON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LionActivity"
+            android:label="@string/title_activity_lion" >
+             <intent-filter>
+                <action android:name="com.example.listviewtest.LION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RoseActivity"
+            android:label="@string/title_activity_rose" >
+             <intent-filter>
+                <action android:name="com.example.listviewtest.ROSE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IronActivity"
+            android:label="@string/title_activity_iron" >
+             <intent-filter>
+                <action android:name="com.example.listviewtest.IRON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EagleActivity"
+            android:label="@string/title_activity_eagle" >
+             <intent-filter>
+                <action android:name="com.example.listviewtest.EAGLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SnackActivity"
+            android:label="@string/title_activity_snack" >
+             <intent-filter>
+                <action android:name="com.example.listviewtest.SNACK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FishActivity"
+            android:label="@string/title_activity_fish" >
+             <intent-filter>
+                <action android:name="com.example.listviewtest.FISH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CruleActivity"
+            android:label="@string/title_activity_crule" >
+             <intent-filter>
+                <action android:name="com.example.listviewtest.CRULE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BlackCastleActivity"
+            android:label="@string/title_activity_black_castle" >
+             <intent-filter>
+                <action android:name="com.example.listviewtest.BLACKCASTLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WildActivity"
+            android:label="@string/title_activity_wild" >
+             <intent-filter>
+                <action android:name="com.example.listviewtest.WILD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SonOfForestActivity"
+            android:label="@string/title_activity_son_of_forest" >
+             <intent-filter>
+                <action android:name="com.example.listviewtest.DRAGON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GhostActivity"
+            android:label="@string/title_activity_ghost" >
+             <intent-filter>
+                <action android:name="com.example.listviewtest." />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

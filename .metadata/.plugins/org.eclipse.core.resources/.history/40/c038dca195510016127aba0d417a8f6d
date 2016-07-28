@@ -1,0 +1,7 @@
+package com.example.listviewtest;
+
+import android.widget.ArrayAdapter;
+
+public class FamilyAdapter extends ArrayAdapter<T> {
+
+}

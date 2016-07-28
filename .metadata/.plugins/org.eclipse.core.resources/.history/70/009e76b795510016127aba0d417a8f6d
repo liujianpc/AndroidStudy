@@ -1,0 +1,21 @@
+package com.example.listviewtest;
+
+import java.util.List;
+
+import android.R.integer;
+import android.content.Context;
+import android.widget.ArrayAdapter;
+
+public class FamilyAdapter extends ArrayAdapter<Family> {
+	private int resourceId;
+
+	public FamilyAdapter(Context context, int resource, int textViewResourceId,
+			List<Family> objects) {
+		super(context, resource, textViewResourceId, objects);
+		resourceId = textViewResourceId;
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+}

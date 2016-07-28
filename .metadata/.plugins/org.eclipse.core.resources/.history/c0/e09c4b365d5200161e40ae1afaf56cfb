@@ -1,0 +1,7 @@
+package com.example.ninepatchtest;
+
+import android.view.View.OnClickListener;
+
+public interface OnClickListener extends OnClickListener {
+
+}

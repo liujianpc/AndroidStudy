@@ -1,0 +1,60 @@
+package com.example.listviewtest;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.Window;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+public class MainActivity extends BaseActivity {
+
+	/*
+	 * private String fruits[] = { "狼家", "龙家", "鹿家", "玫瑰家", "狮家", "铁种", "鱼家",
+	 * "鹰家", "毒蛇家" ,"剥皮家","黑城堡","塞北野人","异鬼","森林之子"};
+	 */
+	private List<Family> families = new ArrayList<Family>();
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		setContentView(R.layout.activity_main);
+		/**
+		 * 将数组传入适配器，resource 一般选择为Simple_expandable_list_item_1
+		 */
+		/*
+		 * ArrayAdapter<String> adapter = new ArrayAdapter<String>(
+		 * MainActivity.this, android.R.layout.simple_expandable_list_item_1,
+		 * fruits); ListView listView = (ListView) findViewById(R.id.listView);
+		 * listView.setAdapter(adapter);
+		 */
+		initFamilyData();
+		FamilyAdapter adapter = new FamilyAdapter(MainActivity.this,
+				R.layout.family_item, families);
+		ListView listView = (ListView) findViewById(R.id.)
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
+			ActivityCollector.finishAllActivity();
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+}

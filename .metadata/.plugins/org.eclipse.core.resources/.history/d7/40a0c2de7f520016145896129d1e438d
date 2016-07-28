@@ -1,0 +1,11 @@
+package com.example.newsapplication;
+
+import android.app.Fragment;
+
+public class NewsContentFragment extends Fragment {
+
+	public NewsContentFragment() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

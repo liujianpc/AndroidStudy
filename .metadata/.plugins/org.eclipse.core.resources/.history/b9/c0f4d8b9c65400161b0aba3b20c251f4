@@ -1,0 +1,19 @@
+package com.example.dymaticbroadcaster;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+
+public class PoweronBroadCastReceiver extends BroadcastReceiver {
+
+	public PoweronBroadCastReceiver() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void onReceive(Context context, Intent intent) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

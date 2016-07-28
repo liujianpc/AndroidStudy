@@ -1,0 +1,11 @@
+package com.example.fragmenttest;
+
+import android.app.Fragment;
+
+public class RightFragment extends Fragment {
+
+	public RightFragment() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

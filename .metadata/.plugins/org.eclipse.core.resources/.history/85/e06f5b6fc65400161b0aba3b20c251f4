@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/com/example/dymaticbroadcaster/DeviceConnectReceiver.java=UTF-8
+encoding//src/com/example/dymaticbroadcaster/DeviceDisconnectReceiver.java=UTF-8
+encoding//src/com/example/dymaticbroadcaster/NetConnectChangeReceiver.java=UTF-8
+encoding//src/com/example/dymaticbroadcaster/SmsReadReceiver.java=UTF-8
