@@ -1,0 +1,9 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <Button 
+        android:id="@+id/sendBroadcast"
+        android:text="发送强制下线广播"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>

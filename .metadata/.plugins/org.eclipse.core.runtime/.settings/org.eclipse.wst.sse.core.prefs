@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-task-tag-projects-already-scanned=TestButton,TestToast,TestFinishActivity,TestOptionMenue,AcitivityLifeCycleTest,TestUI,Testlayout,TestDynamicView,ListViewTest,UICustomViews,NinePatchTest,FragmentTest,NewsApplication,BroadCastTest
+task-tag-projects-already-scanned=TestButton,TestToast,TestFinishActivity,TestOptionMenue,AcitivityLifeCycleTest,TestUI,Testlayout,TestDynamicView,ListViewTest,UICustomViews,NinePatchTest,FragmentTest,NewsApplication,BroadCastTest,DymaticBroadCaster
